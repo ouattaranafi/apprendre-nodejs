@@ -1,0 +1,9 @@
+Suite cours : 
+- Moteur de template: ok
+- Fichier static: ok
+- Données body: ok
+- queryparams
+- Inteconnexion des bases de données
+- Middleware
+- Système d'authentification
+- Sécurité des api (jwt)

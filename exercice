@@ -1,0 +1,11 @@
+1. Utiliser un moteur de template ejs ou pug
+
+2. Configurer les fichier stactic
+
+3. créer une page d'acceuil dans un fichier template séparé et l'appeler dans le index.js
+
+
+Exercice 2
+- queryparams: recuperer les données envoyées depuis la methode get d'un formulaire
+- Inteconnexion des bases de données
+- Middleware
