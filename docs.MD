@@ -38,9 +38,26 @@ app.use(express.static('public'))
  Pour afficher les données de ma page en utilisant un moteur de template tel que html, ejs ou pug...
 
  ```js
- app.set('view engine', 'ejs') //les fichiers renvoyés doivent être contenir dans le dossier view créé a la racine du projet
+ app.set('view engine', 'ejs') //les fichiers renvoyés doivent être contenir dans le dossier views créé a la racine du projet
 
  app.get("/profil", (req, res)=>{
     res.render("index")
 })
  ```
+
+
+
+
+ ### Lien
+
+ "https://www.npmjs.com/package/query-param" => faire des recherche sur les modules de npm
+
+ "https://ejs.co/#install"=> utiliser ejs
+
+ "https://www.digitalocean.com/community/tutorials/how-to-use-ejs-to-template-your-node-application-fr" => Explication détaillé de comment utiliser ejs
+
+ "https://expressjs.com/en/starter/static-files.html" => Documentation d'express (fichier static)
+
+ "https://apprendre-nodejs.fr/v1/chapter-07/index.html#static" => Apprendre Node js (cours complet)
+
+ 
